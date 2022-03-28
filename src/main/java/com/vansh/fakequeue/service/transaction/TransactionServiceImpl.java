@@ -29,9 +29,6 @@ public class TransactionServiceImpl implements TransactionService{
     @Override
     public ResponseEntity<List<TransactionDTO>> getTransaction() {
         List<Transaction> list = transactionRepository.findAll();
-        if(list.isEmpty()){
-            throw new TransactionNotFoundException("No transaction found!!");
-        }
         List<TransactionDTO> dtoList = new ArrayList<>();
         list.forEach(transaction -> {
             TransactionDTO transactionDTO = new TransactionDTO();

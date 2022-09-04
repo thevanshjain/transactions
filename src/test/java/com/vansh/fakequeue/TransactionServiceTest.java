@@ -65,8 +65,8 @@ public class TransactionServiceTest {
         Transaction transaction = getTransaction();
         TransactionDTO transactionDTO = getTransactionDTO();
         when(transactionRepository.save(transaction)).thenReturn(transaction);
-        ResponseEntity<TransactionDTO> responseEntity = transactionService.addTransaction(transactionDTO);
-        assertEquals("Credit", responseEntity.getBody().getType());
+        ResponseEntity<String> responseEntity = transactionService.addTransaction(transactionDTO);
+        assertEquals("Transaction added Successfully!", responseEntity.getBody());
     }
 
 

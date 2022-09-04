@@ -17,6 +17,9 @@ To build and run the application, run the following command
   ```bash
   java -jar {name of jar file}
   ```
+### Swagger Link
+
+    https://springboot-transactions-heroku.herokuapp.com/swagger-ui/
 
 ### Endpoints
 

@@ -61,4 +61,16 @@ public class TransactionServiceImpl implements TransactionService{
         return ResponseEntity.ok("Transaction not found");
 
     }
+
+    @Override
+    public ResponseEntity<?> getTransactionById(Integer id) {
+        Optional<Transaction> result = transactionRepository.findById(id);
+        if(result.isPresent()){
+            TransactionDTO transactionDTO = new TransactionDTO();
+            BeanUtils.copyProperties(result.get(),transactionDTO);
+            return ResponseEntity.ok(transactionDTO);
+        }
+        return ResponseEntity.ok("Transaction Not Found!");
+    }
+
 }

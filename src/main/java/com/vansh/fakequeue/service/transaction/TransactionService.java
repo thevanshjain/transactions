@@ -14,4 +14,6 @@ public interface TransactionService {
     ResponseEntity<String> deleteTransaction(int id);
 
     ResponseEntity<String> modifyTransaction(int id, TransactionDTO transactionDTO);
+
+    ResponseEntity<?> getTransactionById(Integer id);
 }

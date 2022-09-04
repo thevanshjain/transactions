@@ -35,5 +35,9 @@ public class TransactionController {
         return transactionService.modifyTransaction(id,transactionDTO);
     }
 
+    @GetMapping("/{id}")
+    public ResponseEntity<?> getTransactionById(@PathVariable Integer id){
+        return transactionService.getTransactionById(id);
+    }
 
 }

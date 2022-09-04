@@ -20,9 +20,13 @@ GitHub Repository URL
 
     https://github.com/thevanshjain/spring-demo
 
-GET REQUEST
+GET REQUEST -- All
 
     https://springboot-transactions-heroku.herokuapp.com/transaction/
+    
+GET REQUEST BY ID
+
+    https://springboot-transactions-heroku.herokuapp.com/transaction/{id}
 
 POST REQUEST
 
@@ -35,6 +39,8 @@ PUT REQUEST
 Delete REQUEST
 
     https://springboot-transactions-heroku.herokuapp.com/transaction/{id}
+    
+
 
 SAMPLE POST REQUEST via POSTMAN:
 

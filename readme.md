@@ -27,6 +27,14 @@ GET REQUEST
 POST REQUEST
 
     https://springboot-transactions-heroku.herokuapp.com/transaction/
+    
+PUT REQUEST
+
+    https://springboot-transactions-heroku.herokuapp.com/transaction/{id}
+    
+Delete REQUEST
+
+    https://springboot-transactions-heroku.herokuapp.com/transaction/{id}
 
 SAMPLE POST REQUEST via POSTMAN:
 

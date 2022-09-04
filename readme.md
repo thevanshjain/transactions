@@ -1,3 +1,7 @@
+## Description
+
+In-memory Rest APIs performing CRUD operation 
+
 ### Steps to build application
 
 To build and run the application, run the following command
@@ -14,15 +18,15 @@ To build and run the application, run the following command
   java -jar {name of jar file}
   ```
 
-### Links
+### Endpoints
 
-GitHub Repository URL
-
-    https://github.com/thevanshjain/spring-demo
-
-GET REQUEST
+GET REQUEST -- All
 
     https://springboot-transactions-heroku.herokuapp.com/transaction/
+    
+GET REQUEST BY ID
+
+    https://springboot-transactions-heroku.herokuapp.com/transaction/{id}
 
 POST REQUEST
 
@@ -35,6 +39,8 @@ PUT REQUEST
 Delete REQUEST
 
     https://springboot-transactions-heroku.herokuapp.com/transaction/{id}
+    
+
 
 SAMPLE POST REQUEST via POSTMAN:
 

@@ -17,31 +17,20 @@ To build and run the application, run the following command
   ```bash
   java -jar {name of jar file}
   ```
-### Swagger Link
 
-    https://springboot-transactions-heroku-8950791102bf.herokuapp.com/swagger-ui/
+### Swagger Link : /swagger-ui
 
 ### Endpoints
 
-GET REQUEST -- All
-
-    https://springboot-transactions-heroku-8950791102bf.herokuapp.com/transaction/
+GET REQUEST -- All : /transaction
     
-GET REQUEST BY ID
+GET REQUEST BY ID : /transaction/{id}
 
-    https://springboot-transactions-heroku-8950791102bf.herokuapp.com/transaction/{id}
-
-POST REQUEST
-
-    https://springboot-transactions-heroku-8950791102bf.herokuapp.com/transaction/
+POST REQUEST : /transaction
     
-PUT REQUEST
-
-    https://springboot-transactions-heroku-8950791102bf.herokuapp.com/transaction/{id}
+PUT REQUEST : /transaction/{id}
     
-Delete REQUEST
-
-    https://springboot-transactions-heroku-8950791102bf.herokuapp.com/transaction/{id}
+Delete REQUEST : /transaction/{id}
     
 
 
